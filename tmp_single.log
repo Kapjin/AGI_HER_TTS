@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/tts/anaconda3/envs/mfa/bin/mfa", line 6, in <module>
+    from montreal_forced_aligner.command_line.mfa import mfa_cli
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/montreal_forced_aligner/__init__.py", line 4, in <module>
+    import montreal_forced_aligner.acoustic_modeling as acoustic_modeling
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/montreal_forced_aligner/acoustic_modeling/__init__.py", line 7, in <module>
+    from montreal_forced_aligner.acoustic_modeling.base import AcousticModelTrainingMixin  # noqa
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/montreal_forced_aligner/acoustic_modeling/base.py", line 11, in <module>
+    import sqlalchemy.engine
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/__init__.py", line 13, in <module>
+    from .engine import AdaptedConnection as AdaptedConnection
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/engine/__init__.py", line 18, in <module>
+    from . import events as events
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/engine/events.py", line 19, in <module>
+    from .base import Connection
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 28, in <module>
+    from .interfaces import BindTyping
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/engine/interfaces.py", line 37, in <module>
+    from ..sql.compiler import Compiled as Compiled
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/sql/__init__.py", line 10, in <module>
+    from ._typing import ColumnExpressionArgument as ColumnExpressionArgument
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/sql/_typing.py", line 27, in <module>
+    from . import roles
+  File "/home/tts/anaconda3/envs/mfa/lib/python3.10/site-packages/sqlalchemy/sql/roles.py", line 130, in <module>
+    class GroupByRole(AllowsLambdaRole, UsesInspection, ByOfRole):
+KeyboardInterrupt
